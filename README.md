@@ -4,4 +4,4 @@ A responsive portfolio website showcasing my skills, experience, and technical p
 
 ## 🔗 Live Portfolio
 
-👉 [Visit My Portfolio](https://vivek-s-portfolio-3mk7.vercel.app/)
+👉 [Visit My Portfolio](https://vivek-s-portfolio-rg98.vercel.app/)
