@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Neerumalla Vivek — Software Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <!-- ===== CURSOR ===== -->
+  <div class="cursor-dot" id="cursorDot"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- ===== NAV ===== -->
+  <header id="navbar">
+    <div class="nav-inner">
+      <span class="nav-logo">NV<span class="dot">.</span></span>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#certifications">certifications</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <a href="Vivek_Resume.pdf" download="Vivek.pdf" class="nav-cta">Resume ↓</a>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-content">
+      <p class="hero-tag"><span class="tag-dot"></span>Available for opportunities</p>
+      <h1 class="hero-name">Neerumalla<br/><em>Vivek</em></h1>
+      <p class="hero-role" id="typedRole"></p>
+      <p class="hero-sub">Full-Stack Engineer · Java · Spring Boot · React.js</p>
+      <div class="hero-cta-row">
+        <a href="#projects" class="btn-primary">View Projects</a>
+        <a href="#contact" class="btn-ghost">Get in Touch</a>
+      </div>
+    </div>
+    <div class="hero-photo-wrap">
+      <div class="photo-ring"></div>
+      <img src="vivek1.jpg" alt="Neerumalla Vivek" class="hero-photo" />
+    </div>
+    <div class="scroll-hint"><strong>scroll ↓</strong></div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="section about-section">
+    <div class="section-label">01 / about</div>
+    <div class="about-grid">
+      <div class="about-left reveal">
+        <h2 class="section-heading">About Me</h2>
+        <p class="about-text">
+          Results-driven Software Engineer with strong expertise in full-stack development using Java, Spring Boot, React.js, and RESTful APIs. Experienced in building secure and scalable applications with JWT authentication, RBAC, and optimized backend architectures. Developed end-to-end solutions including a School ERP system and an inventory management platform. During my internship at Dynamic Tangent, I contributed to frontend screen development using React.js and analyzed 1500+ job descriptions to improve the performance of a Resume Generator tool. Passionate about building production-grade applications and continuously improving system performance and user experience.
+        </p>
+        <div class="about-stats">
+          <div class="stat-pill">
+            <span class="stat-num">3+</span>
+            <span class="stat-label">Production Systems</span>
+          </div>
+          <div class="stat-pill">
+            <span class="stat-num">1500+</span>
+            <span class="stat-label">JDs Analyzed</span>
+          </div>
+          <div class="stat-pill">
+            <span class="stat-num">8.27</span>
+            <span class="stat-label">CGPA</span>
+          </div>
+        </div>
+      </div>
+      <div class="about-right reveal reveal-delay">
+        <div class="edu-card">
+          <div class="edu-icon">🎓</div>
+          <div>
+            <h3>Bachelor of Technology in Information Technology</h3>
+            <p class="edu-college">B V Raju Institute of Technology</p>
+            <p class="edu-detail">2022 – 2026 &nbsp;·&nbsp; CGPA: 8.27</p>
+            <p class="edu-courses">Data Structures & Algorithms · OOP · Databases · System Design · Agile</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EXPERIENCE ===== -->
+  <section id="experience" class="section exp-section">
+    <div class="section-label">02 / experience</div>
+    <h2 class="section-heading reveal">Work Experience</h2>
+    <div class="exp-card reveal">
+      <div class="exp-meta">
+        <span class="exp-date">Feb 2025 – Dec 2025</span>
+        <span class="exp-type">Remote · Internship</span>
+      </div>
+      <div class="exp-body">
+        <div class="exp-company-row">
+          <div class="exp-logo">DT</div>
+          <div>
+            <h3 class="exp-title">Software Developer Intern</h3>
+            <h4 class="exp-company">Dynamic Tangent</h4>
+          </div>
+        </div>
+        <ul class="exp-list">
+          <li>Developed responsive frontend screens for a production web application using React.js with component-based architecture and React Hooks.</li>
+          <li>Designed and optimized UI using Tailwind CSS to ensure cross-device performance and a consistent user experience.</li>
+          <li>Analyzed 1500+ job descriptions and generated tailored resumes to evaluate and improve the performance of a Resume Generator tool under tight deadlines.</li>
+          <li>Evaluated AI models for accuracy, performance, and robustness, ensuring high-quality outputs.</li>
+          <li>Identified and reported bugs and inconsistencies, contributing to model improvements.</li>
+          <li>Collaborated with cross-functional teams and participated in code reviews and quality assurance.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section id="skills" class="section skills-section">
+    <div class="section-label">03 / skills</div>
+    <h2 class="section-heading reveal">Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-card reveal">
+        <div class="skill-card-icon">{ }</div>
+        <h3>Programming Languages</h3>
+        <ul class="skills-list">
+          <li>Java</li>
+          <li>SQL</li>
+        </ul>
+      </div>
+      <div class="skill-card reveal reveal-delay">
+        <div class="skill-card-icon">&lt;/&gt;</div>
+        <h3>Web Development</h3>
+        <ul class="skills-list">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>React.js</li>
+          <li>Spring Boot</li>
+          <li>Postman API</li>
+        </ul>
+      </div>
+      <div class="skill-card reveal reveal-delay-2">
+        <div class="skill-card-icon">🗄</div>
+        <h3>Databases & Tools</h3>
+        <ul class="skills-list">
+          <li>MySQL</li>
+          <li>PostgreSQL</li>
+          <li>Git & GitHub</li>
+          <li>VS Code</li>
+        </ul>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-card-icon">⚙</div>
+        <h3>Computer Science</h3>
+        <ul class="skills-list">
+          <li>Data Structures & Algorithms</li>
+          <li>Object-Oriented Programming</li>
+          <li>Agile Methodology</li>
+          <li>Cloud Computing</li>
+        </ul>
+      </div>
+      <div class="skill-card reveal reveal-delay">
+        <div class="skill-card-icon">✦</div>
+        <h3>Other Skills</h3>
+        <ul class="skills-list">
+          <li>MS Word</li>
+          <li>MS Excel</li>
+          <li>Problem Solving</li>
+          <li>Adaptability</li>
+          <li>Communication</li>
+          <li>Team Work</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section id="projects" class="section projects-section">
+    <div class="section-label">04 / projects</div>
+    <h2 class="section-heading reveal">Projects</h2>
+    <div class="project-grid">
+
+      <div class="project-card featured reveal">
+        <div class="project-num">01</div>
+        <div class="project-icon-wrap">💰</div>
+        <h3>Finance Data Processing & Access Control API</h3>
+        <p>Production-deployed, scalable finance management backend system leveraging secure RESTful microservice architecture, role-based access control (RBAC), and real-time analytics dashboards to deliver high-performance financial record management with enterprise-grade authentication and data security.</p>
+        <div class="project-tech">
+          <span>Java</span><span>Spring Boot</span><span>Spring Security</span>
+          <span>PostgreSQL</span><span>Hibernate/JPA</span><span>Docker</span>
+          <span>SpringDoc OpenAPI</span><span>Maven</span>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-num">02</div>
+        <div class="project-icon-wrap">🏫</div>
+        <h3>School ERP Web Application</h3>
+        <p>Built a full-stack ERP system for schools with secure role-based access for students, teachers, parents, and admins. Features include marks tracking, fee management, attendance, and parent-teacher communication.</p>
+        <div class="project-tech">
+          <span>React.js</span><span>Spring Boot</span><span>PostgreSQL</span>
+          <span>JWT</span><span>REST APIs</span><span>Docker</span><span>CI/CD</span>
+        </div>
+      </div>
+
+      <div class="project-card reveal reveal-delay">
+        <div class="project-num">03</div>
+        <div class="project-icon-wrap">🛒</div>
+        <h3>Sweet Shop Management System</h3>
+        <p>Developed a full-stack sweet shop management application with secure authentication, role-based access, and CRUD operations for product management, ensuring seamless frontend–backend integration.</p>
+        <div class="project-tech">
+          <span>React.js</span><span>Spring Boot</span><span>MySQL</span>
+          <span>JWT</span><span>REST APIs</span><span>Axios</span>
+        </div>
+      </div>
+
+      <div class="project-card reveal reveal-delay-2">
+        <div class="project-num">04</div>
+        <div class="project-icon-wrap">🌿</div>
+        <h3>Medicinal Leaf Recognition Using Swin Transformer</h3>
+        <p>Developed an automated deep learning system to accurately identify medicinal leaves using the Swin Transformer, leveraging Shifted Window Self-Attention (SW-MSA) for effective feature extraction and classification on the VNPlant200 dataset.</p>
+        <div class="project-tech">
+          <span>Python</span><span>Swin Transformer</span><span>Deep Learning</span><span>Google Colab</span>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-num">05</div>
+        <div class="project-icon-wrap">🌡️</div>
+        <h3>Air Quality Monitoring System</h3>
+        <p>Developed an IoT-based system to monitor air quality in real-time.</p>
+        <div class="project-tech">
+          <span>C</span><span>IoT</span>
+        </div>
+      </div>
+
+      <div class="project-card reveal reveal-delay">
+        <div class="project-num">06</div>
+        <div class="project-icon-wrap">🛍️</div>
+        <h3>E-Commerce Web Application</h3>
+        <p>Developed a functional and visually appealing e-commerce product page using HTML, CSS and JavaScript displaying product web page.</p>
+        <div class="project-tech">
+          <span>HTML</span><span>CSS</span><span>JavaScript</span>
+        </div>
+      </div>
+
+      <div class="project-card reveal reveal-delay-2">
+        <div class="project-num">07</div>
+        <div class="project-icon-wrap">🌐</div>
+        <h3>Personal Bucket List Web Application</h3>
+        <p>Developed a responsive web app showcasing a personal bucket list using HTML, CSS, and JavaScript.</p>
+        <div class="project-tech">
+          <span>HTML</span><span>CSS</span><span>JavaScript</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== CERTIFICATIONS ===== -->
+  <section id="certifications" class="section cert-section">
+    <div class="section-label">05 / certifications</div>
+    <h2 class="section-heading reveal">Certifications</h2>
+    <div class="cert-grid">
+      <div class="cert-card reveal">
+        <div class="cert-badge">🏆</div>
+        <h3>Flipkart Grid Hackathon</h3>
+        <p>Participation certificate in Flipkart Grid Hackathon.</p>
+      </div>
+      <div class="cert-card reveal reveal-delay">
+        <div class="cert-badge">📊</div>
+        <h3>SmartInterviews Smart Coder</h3>
+        <p>Certification in SmartInterviews Smart Coder Course in DSA.</p>
+      </div>
+      <div class="cert-card reveal reveal-delay-2">
+        <div class="cert-badge">🤖</div>
+        <h3>Generative AI Tools</h3>
+        <p>Participation certificate in Generative AI Tools by Next Wave.</p>
+      </div>
+      <div class="cert-card reveal">
+        <div class="cert-badge">🎓</div>
+        <h3>NPTEL Elite Certification</h3>
+        <p>NPTEL Elite Certification in Soft Skills.</p>
+      </div>
+      <div class="cert-card reveal reveal-delay">
+        <div class="cert-badge">🏅</div>
+        <h3>Spring Boot Development</h3>
+        <p>Spring Boot Development — Udemy.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="section contact-section">
+    <div class="section-label">06 / contact</div>
+    <h2 class="section-heading reveal">Get in Touch</h2>
+    <p class="contact-intro reveal">I'm currently open to full-time roles and exciting collaborations.</p>
+    <div class="contact-grid">
+      <div class="contact-info reveal">
+        <div class="contact-item">
+          <span class="contact-icon">📧</span>
+          <div>
+            <span class="contact-label">Email</span>
+            <p>vivekneerumalla9987@gmail.com</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <span class="contact-icon">📱</span>
+          <div>
+            <span class="contact-label">Phone</span>
+            <p>+91-9494168181</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <span class="contact-icon">📍</span>
+          <div>
+            <span class="contact-label">Location</span>
+            <p>India</p>
+          </div>
+        </div>
+      </div>
+      <div class="social-links reveal reveal-delay">
+        <a href="https://www.linkedin.com/in/vivek-neerumalla-944248259" target="_blank" class="social-link">
+          <span class="social-icon">in</span>
+          <span>LinkedIn</span>
+          <span class="social-arrow">↗</span>
+        </a>
+        <a href="https://github.com/NeerumallaVivek" target="_blank" class="social-link">
+          <span class="social-icon">gh</span>
+          <span>GitHub</span>
+          <span class="social-arrow">↗</span>
+        </a>
+        <a href="Vivek_Resume.pdf" download="Vivek.pdf" class="social-link download-link">
+          <span class="social-icon">↓</span>
+          <span>Download Resume</span>
+          <span class="social-arrow">PDF</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <div class="footer-inner">
+      <span class="footer-logo">NEERUMALLA VIVEK<span class="dot">.</span></span>
+      <p>&copy; 2025 Neerumalla Vivek. All rights reserved.</p>
+      <p class="footer-sub">Built with passion & code.</p>
+    </div>
+  </footer>
+
+  <!-- Scroll to top -->
+  <button id="scrollToTopBtn" title="Go to top">↑</button>
+
+  <script>
+    // ---- Custom cursor ----
+    const dot = document.getElementById('cursorDot');
+    const ring = document.getElementById('cursorRing');
+    let mx = 0, my = 0, rx = 0, ry = 0;
+    document.addEventListener('mousemove', e => { mx = e.clientX; my = e.clientY; dot.style.transform = `translate(${mx}px,${my}px)`; });
+    (function animRing() { rx += (mx - rx) * 0.12; ry += (my - ry) *.12; ring.style.transform = `translate(${rx}px,${ry}px)`; requestAnimationFrame(animRing); })();
+    document.querySelectorAll('a,button,.project-card,.cert-card,.skill-card').forEach(el => {
+      el.addEventListener('mouseenter', () => { ring.classList.add('ring-hover'); dot.classList.add('dot-hover'); });
+      el.addEventListener('mouseleave', () => { ring.classList.remove('ring-hover'); dot.classList.remove('dot-hover'); });
+    });
+
+    // ---- Typewriter ----
+    const roles = ['Software Developer', 'Full-Stack Engineer', 'Backend Specialist', 'Problem Solver'];
+    let ri = 0, ci = 0, deleting = false;
+    const el = document.getElementById('typedRole');
+    function type() {
+      const word = roles[ri];
+      if (!deleting) { el.textContent = word.slice(0, ++ci); if (ci === word.length) { deleting = true; setTimeout(type, 1400); return; } }
+      else { el.textContent = word.slice(0, --ci); if (ci === 0) { deleting = false; ri = (ri + 1) % roles.length; } }
+      setTimeout(type, deleting ? 60 : 100);
+    }
+    type();
+
+    // ---- Scroll reveal ----
+    const reveals = document.querySelectorAll('.reveal');
+    const io = new IntersectionObserver(entries => {
+      entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); io.unobserve(e.target); } });
+    }, { threshold: 0.12 });
+    reveals.forEach(r => io.observe(r));
+
+    // ---- Navbar shrink ----
+    window.addEventListener('scroll', () => {
+      document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 60);
+    });
+
+    // ---- Active nav ----
+    const sections = document.querySelectorAll('section[id]');
+    const navLinks = document.querySelectorAll('nav a');
+    window.addEventListener('scroll', () => {
+      let cur = '';
+      sections.forEach(s => { if (window.scrollY >= s.offsetTop - 120) cur = s.id; });
+      navLinks.forEach(a => { a.classList.toggle('active', a.getAttribute('href') === '#' + cur); });
+    });
+
+    // ---- Scroll to top ----
+    const scrollBtn = document.getElementById('scrollToTopBtn');
+    window.addEventListener('scroll', () => { scrollBtn.style.display = window.scrollY > 300 ? 'flex' : 'none'; });
+    scrollBtn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+
+    // ---- Smooth links ----
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', e => {
+        const t = document.querySelector(a.getAttribute('href'));
+        if (t) { e.preventDefault(); t.scrollIntoView({ behavior: 'smooth', block: 'start' }); }
+      });
+    });
+
+    // ---- Parallax hero ----
+    window.addEventListener('scroll', () => {
+      const hero = document.querySelector('.hero');
+      if (hero) hero.style.backgroundPositionY = -(window.scrollY * 0.3) + 'px';
+    });
+  </script>
+</body>
+</html>
