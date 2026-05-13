@@ -4,4 +4,4 @@ A responsive portfolio website showcasing my skills, experience, and technical p
 
 ## 🔗 Live Portfolio
 
-👉 [Visit My Portfolio](https://vivek-s-portfolio-s9ai.vercel.app/)
+👉 [Visit My Portfolio](https://neerumallavivek-portfolio.netlify.app/)
